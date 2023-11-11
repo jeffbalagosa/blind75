@@ -1,6 +1,7 @@
-from typing import List
+# Solution
 
-
+```Python
 class Solution:
     def containsDuplicate(self, nums: List[int]) -> bool:
-        pass
+        return len(nums) != len(set(nums))
+```

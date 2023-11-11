@@ -1,15 +1,25 @@
+import unittest
 from problem import Solution
 
 
-class TestSolution:
-    def test_1(self):
-        assert Solution().containsDuplicate([1, 2, 3, 1])
+class TestContainsDuplicate(unittest.TestCase):
+    def setUp(self):
+        self.solution = Solution()
 
-    def test_2(self):
-        assert not Solution().containsDuplicate([1, 2, 3, 4])
+    def test_empty_list(self):
+        self.assertFalse(self.solution.containsDuplicate([]))
 
-    def test_3(self):
-        assert Solution().containsDuplicate([1, 1, 1, 3, 3, 4, 3, 2, 4, 2])
+    def test_single_element_list(self):
+        self.assertFalse(self.solution.containsDuplicate([1]))
+
+    def test_no_duplicates(self):
+        self.assertFalse(self.solution.containsDuplicate([1, 2, 3, 4, 5]))
+
+    def test_with_duplicates(self):
+        self.assertTrue(self.solution.containsDuplicate([1, 2, 3, 2]))
+
+    def test_with_multiple_duplicates(self):
+        self.assertTrue(self.solution.containsDuplicate([1, 1, 1, 1, 1]))
 
 
 if __name__ == "__main__":
