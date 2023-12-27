@@ -9,5 +9,6 @@
                 return [seen[complement], i]
             seen[num] = i
         return []
-
 ```
+
+Time complexity: O(n) where n is the length of nums.

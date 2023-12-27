@@ -16,3 +16,5 @@ class Solution(object):
             result[tuple(count)].append(string)
         return result.values()
 ```
+
+Time complexity: O(nk) where n is the length of strs and k is the maximum length of a string in strs.
