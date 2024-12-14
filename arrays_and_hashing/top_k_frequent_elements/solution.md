@@ -1,3 +1,6 @@
+# Solution
+
+```Python
 class Solution(object):
     def topKFrequent(self, nums, k):
         """
@@ -18,3 +21,10 @@ class Solution(object):
         while len(res) < k:
             res.append(arr.pop()[1])
         return res
+```
+
+## Time & Space Complexity
+### Time complexity:
+O(nlogn)
+### Space complexity:
+O(n)
