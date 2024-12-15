@@ -14,6 +14,8 @@ Return *the maximum amount of water a container can store*.
 ---
 
 ## Example 1:
+![Example 1 Image](./assets/question_11.jpg)
+
 **Input**:
 ```
 height = [1,8,6,2,5,4,8,3,7]
@@ -24,6 +26,7 @@ height = [1,8,6,2,5,4,8,3,7]
 ```
 **Explanation**:
 The vertical lines are represented by the array `[1,8,6,2,5,4,8,3,7]`. In this case, the max area of water (blue section) the container can contain is 49.
+
 
 ---
 
