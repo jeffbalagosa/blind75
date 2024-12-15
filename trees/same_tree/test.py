@@ -1,5 +1,4 @@
 import unittest
-from typing import Optional
 from problem import Solution, TreeNode
 
 
