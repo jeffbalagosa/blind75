@@ -85,7 +85,7 @@ The repository currently includes the following categories:
 Feel free to clone the repository and use it for your own learning. Contributions are welcome if you'd like to improve the solutions or add additional test cases.
 
 ```bash
-git clone <repo_url>
+git clone https://github.com/jeffbalagosa/blind75
 cd blind75
 ```
 
