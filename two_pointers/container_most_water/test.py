@@ -2,7 +2,7 @@ import unittest
 from problem import Solution
 
 
-class TestThreeSum(unittest.TestCase):
+class TestSolution(unittest.TestCase):
     def setUp(self):
         self.solution = Solution()
 
