@@ -1,5 +1,6 @@
 import unittest
-from problem import Solution, TreeNode
+from problem import Solution
+from ..TreeNode.tree_node import TreeNode
 
 
 def list_to_tree(lst):
