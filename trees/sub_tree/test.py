@@ -1,6 +1,7 @@
 import unittest
 
-from problem import TreeNode, Solution
+from problem import Solution
+from ..TreeNode.tree_node import TreeNode
 
 
 class TestSolution(unittest.TestCase):
