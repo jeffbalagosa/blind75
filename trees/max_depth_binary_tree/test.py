@@ -2,6 +2,7 @@ import unittest
 from problem import Solution
 from trees.TreeNode.tree_node import TreeNode
 
+
 class TestMaxDepthBinaryTree(unittest.TestCase):
     def setUp(self):
         self.solution = Solution()
@@ -32,5 +33,6 @@ class TestMaxDepthBinaryTree(unittest.TestCase):
         root.left.left.left = TreeNode(4)
         self.assertEqual(self.solution.maxDepth(root), 4)
 
-if __name__ == '__main__':
+
+if __name__ == "__main__":
     unittest.main()
