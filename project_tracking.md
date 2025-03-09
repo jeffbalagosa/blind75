@@ -5,7 +5,7 @@
 4. **Product of Array Except Self** ✅
 5. **Maximum Subarray**
 6. **Maximum Product Subarray**
-7. **Find Minimum in Rotated Sorted Array**
+7. **Find Minimum in Rotated Sorted Array** ✅
 8. **Search in Rotated Sorted Array**
 9. **3Sum** ✅
 10. **Container With Most Water** ✅
@@ -64,7 +64,7 @@
 ### String
 50. **Longest Substring Without Repeating Characters** ✅
 51. **Longest Repeating Character Replacement** ✅
-52. **Minimum Window Substring**
+52. **Minimum Window Substring** ✅
 53. **Valid Anagram** ✅
 54. **Group Anagrams** ✅
 55. **Valid Parentheses**
